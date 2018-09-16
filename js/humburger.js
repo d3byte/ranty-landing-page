@@ -7,8 +7,6 @@
     const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     const headerHeight = 97;
 
-    humburgerMenu.style.height = `${viewportHeight - headerHeight}px`;
-
     let isHumburgerToggled = false;
 
     function toggleMenu() {
@@ -16,10 +14,12 @@
             isHumburgerToggled = true;
             humburgerBtn.querySelector('img').setAttribute('src', 'assets/icon_burger_close.svg');
             humburgerMenu.style.maxHeight = `${viewportHeight - headerHeight}px`;
+            document.body.style.overflow = 'hidden';
             return
         }
         isHumburgerToggled = false;
         humburgerBtn.querySelector('img').setAttribute('src', 'assets/icon_burger.svg');
         humburgerMenu.style.maxHeight = '0';
+        document.body.style.overflow = 'visible';
     }
 })();

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ranty</title>
     <link rel="stylesheet" href="style/vendor/normalize.css" />
+    <link rel="stylesheet" href="style/vendor/swiper.min.css" />
     <link rel="stylesheet" href="style/css/style.css" />
 </head>
 <body>
@@ -14,16 +15,16 @@
             <img class="header__main__logo" src="assets/logo.svg" />
             <ul class="list list--horizontal">
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Преимущества</a>
+                    <a class="header__main__link" href="#features">Преимущества</a>
                 </li>
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Интерфейс</a>
+                    <a class="header__main__link" href="#interface">Интерфейс</a>
                 </li>
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Контакты</a>
+                    <a class="header__main__link" href="#contacts">Контакты</a>
                 </li>
                 <li class="list__item">
-                    <a class="header__main__link square-button" href="#">Получить демо</a>
+                    <a class="header__main__link square-button" href="#demo">Получить демо</a>
                 </li>
             </ul>
             <button class="header__main__humburger-toggle">
@@ -33,21 +34,216 @@
         <ul class="list header__humburger">
             <span>
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Преимущества</a>
+                    <a class="header__main__link" href="#features">Преимущества</a>
                 </li>
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Интерфейс</a>
+                    <a class="header__main__link" href="#interface">Интерфейс</a>
                 </li>
                 <li class="list__item">
-                    <a class="header__main__link" href="#">Контакты</a>
+                    <a class="header__main__link" href="#contacts">Контакты</a>
                 </li>
             </span>
             <li class="list__item">
-                <a class="header__main__link square-button" href="#">Получить демо</a>
+                <a class="header__main__link square-button" href="#demo">Получить демо</a>
             </li>
         </ul>
     </header>
+    
+    <section class="section first-section">
+        <div class="highlighted-block">
+            <h1>
+                Инструмент <br>
+                управления <br>
+                коммерческой <br>
+                недвижимостью <br>
+            </h1>
+        </div>
+    </section>
 
+    <section class="section section--half-splitted feature-container feature-container--border-bottom">
+        <div class="highlighted-block highlighted-block--center-mobile section--half-splitted__item">
+            <h1>один продукт для многих задач</h1>
+            <p>
+                Экономьте свое время. Пользуйтесь Ranty
+                для отслеживания финансовых показателей, ведения
+                эксплуатации объектов и взаимодействия
+                с арендаторами. С любого устройство и любой точки
+                мира
+            </p>
+        </div>
+        <div class="section--half-splitted__item feature-img-container">
+            <div class="content">
+                <img src="assets/product_img@2x.png" />
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section section--half-splitted feature-container feature-container--row-reverse">
+        <div class="highlighted-block highlighted-block--center-mobile section--half-splitted__item">
+            <h1>эффектиный маркетинг</h1>
+            <p>
+                Размещайте объявления на  разных рекламных
+                площадках в несколько кликов. Формируйте список
+                потенциальных арендаторов и отправляйте им
+                коммерческие предложения с помощью Ranty
+            </p>
+        </div>
+        <div class="section--half-splitted__item feature-img-container">
+            <div class="content">
+                <img src="assets/marketing_img@2x.png" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--half-splitted feature-container fourth-section">
+        <div class="highlighted-block highlighted-block--center-mobile section--half-splitted__item">
+            <h1>актуальные финансовые показатели</h1>
+            <p>
+                Прогнозируйте состояние денежного потока
+                и контролируйте объем фактических поступлений по каждому арендатору, синхронизируя банковские выписки
+            </p>
+        </div>
+    </section>
+
+    <section class="section section--half-splitted feature-container feature-container--row-reverse feature-container--border-bottom">
+        <div class="highlighted-block highlighted-block--center-mobile section--half-splitted__item">
+            <h1>качественная эксплуатация</h1>
+            <p>
+                Размещайте заявки на выполнение работ и выбирайте лучших исполнителей.
+                Экономьте время и деньги за счет привлечения специалистов на определенные работы, 
+                а не оплачивая их ежемесячное пребывание в штате
+            </p>
+        </div>
+        <div class="section--half-splitted__item feature-img-container">
+            <div class="content">
+                <img src="assets/expluatation_img@2x.png" />
+            </div>
+        </div>
+    </section>
+
+    <section id="interface" class="section feature-container feature-container--vertical feature-container--vertical-center-all sixth-section">
+        <div class="highlighted-block highlighted-block--center">
+            <h1>интерфейс</h1>
+        </div>
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <div class="content">
+                            <img src="assets/interface_img-1@2x.png" />
+                        </div>
+                    </div>
+                    <p>Личный кабинет для собственника и арендатора</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <div class="content">
+                            <img src="assets/interface_img-1@2x.png" />
+                        </div>
+                    </div>
+                    <p>Личный кабинет для собственника и арендатора</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-img">
+                        <div class="content">
+                            <img src="assets/interface_img-1@2x.png" />
+                        </div>
+                    </div>
+                    <p>Личный кабинет для собственника и арендатора</p>
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="demo" class="section section--half-splitted seventh-section">
+        <div class="section--half-splitted__item">
+            <div class="feature-img-container">
+                <div class="content">
+                    <img src="assets/presentation_img@2x.png" />
+                </div>
+            </div>
+            <div class="highlighted-block highlighted-block--center-mobile">
+                <h1>запросить<br>демо</h1>
+                <p>
+                    Свяжитесь с нами, чтобы мы смогли провести
+                    для вас презентацию продукта
+                </p>
+            </div>
+        </div>
+        <div class="section--half-splitted__item">
+            <form class="form" onsubmit="return false">
+                <div class="form__group">
+                    <label class="form__group__label">Имя<sup>*</sup></label>
+                    <input type="text" class="form__group__input" name="name" />
+                    <p style="display: none" class="form__group__error">Это обязательно поле</p>
+                </div>
+                <div class="form__group">
+                    <label class="form__group__label">Организация</label>
+                    <input type="text" class="form__group__input" name="organization" />
+                </div>
+                <div class="form__group">
+                    <label class="form__group__label">Email<sup>*</sup></label>
+                    <input type="email" class="form__group__input" name="email" />
+                    <p style="display: none" class="form__group__error">Это обязательно поле</p>
+                </div>
+                <button type="submit" class="square-button" href="#">
+                    Отправить запрос
+                </button>
+            </form>
+        </div>
+        <div style="display: none" class="success-window section">
+            <div class="success-window__wrapper">
+                <div class="feature-img-container">
+                    <div class="content">
+                        <img src="assets/icon_rocket@2x.png" />
+                    </div>
+                </div>
+                <h2 class="success-window__wrapper__message">
+                    Спасибо, мы получили ваш запрос
+                    и скоро свяжемся с вами, чтобы провести демонстрацию
+                    продукта
+                </h2>
+                <button class="success-window__wrapper__refresh">Отправить ещё раз</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="conctacts" class="section footer">
+        <div class="highlighted-block highlighted-block--center-mobile section--half-splitted__item">
+            <h2>Данила Валяев</h2>
+            <p>CEO</p>
+        </div>
+        <div class="footer__contacts">
+            <div class="footer__contacts__contact">
+                <div class="footer__contacts__contact__icon">
+                    <img src="assets/icon_email.svg">
+                </div>
+                <a class="footer__contacts__contact__link" href="mailto:info@ranty.ru">info@ranty.ru</a>
+            </div>
+            <div class="footer__contacts__contact">
+                <div class="footer__contacts__contact__icon">
+                    <img src="assets/icon_phone.svg">
+                </div>
+                <a class="footer__contacts__contact__text" href="mailto:info@ranty.ru">+7 905 707 5555</a>
+            </div>
+            <div class="footer__contacts__contact">
+                <div class="footer__contacts__contact__icon">
+                    <img src="assets/icon_telegram.svg">
+                </div>
+                <a class="footer__contacts__contact__link" href="#">@danilavalyaev</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/swiper.min.js"></script>
     <script src="js/humburger.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>
